@@ -1,0 +1,118 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+ }
+ body{
+   font-family: -apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
+ }
+.header{
+   height: 60px;
+}
+.header-left{
+   float: left;
+}
+ h1 img{
+    width: 57px;
+    height: 23px;
+    margin-top: 18px;
+    margin-left: 58px;
+}
+.header-right{
+   float: right;
+}
+.header-right img{
+   height: 28px;
+   width: 17px;
+   left: 0px;
+   bottom: 0px;
+   position: absolute;
+
+}
+.dingwei{
+   font-size: 14px;
+   padding:2px  4px 2px 18px;
+   background: linear-gradient(96.17deg,#e75d5a 0,#eba758 108.05%);
+   border-radius: 4px;
+   color: aliceblue;
+   position: relative;
+}
+
+.header-right ul{
+   float: left;
+   margin-top: 24px;
+}
+.header-right li{
+   float: left;
+   margin-right: 67px;
+}
+
+.main{
+   height: 393px;
+   width: 404px;
+   
+   margin-top: 166px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.le{
+   font-size: 40px;
+   margin-bottom: 24px;
+}
+.gou{
+   font-size: 15px;
+   margin-bottom: 36px;
+}
+input{
+   width: 320px;
+   height: 36px;
+   margin-bottom: 22px;
+   font-size: 14px;
+   border-radius: 4px;
+   /* 去除边框颜色 */
+   border: none;
+}
+.shouji{
+   margin-bottom: 12px;
+}
+.xieyi{
+   font-size: 11px;
+   margin-bottom: 30px;
+   position: relative;
+   
+}
+.xieyi p{
+   margin-left: 20px;
+   
+}
+a{
+   text-decoration: none;
+}
+button{
+   background: #0085ff;
+   font-size: 14px;
+   color: aliceblue;
+   border: none;
+   padding: 14px 132px;
+   border-radius: 4px;
+}
+.footer p{
+   font-size: 8px;
+   color: #a5a8ab;
+   text-align: center;
+}
+body{
+   background: url(../img/zhuye/img-bg@2x.png);
+}
+
+.xieyi span{
+   display: inline-block;
+   width: 16px;
+   height: 16px;
+   position: absolute;
+   background: url(../img/zhuye/icon-check@3x.png);
+   background-size: contain;
+   cursor: pointer;
+}
+

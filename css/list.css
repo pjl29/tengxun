@@ -1,0 +1,706 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+.con{
+    width: 1200px;
+    height: 127px;
+
+    margin:0px auto;
+    overflow: hidden;
+}
+
+.header2{
+    height: 54px;
+    background: #fa9144;
+    border: none;
+    margin-bottom: 40px;
+
+}
+.header-left{
+    float: left;
+}
+h1{
+    margin-left: 89px;
+}
+.header-right{
+    float: right;
+    margin-right: 347px;
+}
+.header-right p{
+    overflow: hidden;
+    float: left;
+    border: 1px solid #dcd8d4;
+    
+}
+.wai{
+    overflow: hidden;
+    margin-top: 35px;
+    border: 4px solid #ece6e8;
+    margin-bottom: 8px;
+}
+.header-right span{
+    height: 44px;
+    width: 74px;
+    display: block;
+    background: url(../img/zhuye/jingling.png)0px -605px;
+    float: right;
+    
+}
+.header-right span:hover{
+    background-position: -152px -605px;
+}
+
+input{
+    height: 44px;
+    width: 387px;
+    border: none;
+    float: left;
+    
+}
+
+.header-right li{
+    float: left;
+    margin-right: 13px;
+
+}
+.header-right a:hover{
+    color: #fa9144;
+
+}
+.nav{
+    background: #fa9144;
+    
+    height: 54px;
+}
+.con1{
+    width: 1200px;
+    margin: 0px auto;
+}
+.nav li{
+    float: left;
+    margin-right: 20px;
+    padding-top: 17px;
+    cursor: pointer;
+}
+.nav li a{
+    font-size: 20px;
+    color: #f6f6f6;
+}
+.nav li span{
+    font-size: 20px;
+    color: #f6f6f6;
+}
+.biao2{
+    display: block;
+    margin-top: 10px;
+    height: 34px;
+    width: 94px;
+    font-size: 13px;
+    color: #7d360f;
+    line-height: 38px;
+    text-align: center;
+    float: right;
+    background: #fbe4bb;
+    border: 1px solid #cc610a;
+    position: relative;
+}
+.biao2 span{
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    background: url(../img/zhuye/jingling.png)-195px -234px;
+    left: 3px;
+    top: 7px;
+}
+.biao1{
+    display: block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 9px;
+    position: relative;
+    height: 34px;
+    width: 157px;
+    font-size: 13px;
+    color: #fcca78;
+    line-height: 38px;
+    text-align: center;
+    background: #393939;
+    border: 1px solid #cc610a;
+}
+.biao1 span{
+    width: 15px;
+    height: 18px;
+    position: absolute;
+    background: url(../img/zhuye/jingling.png)-213px -234px;
+    left: 7px;
+    top: 7px;
+}
+.con2{
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.sidebar{
+    width: 300px;
+    height: 500px;
+    
+    overflow: hidden;
+    border: 1px solid #c7c7c7;
+}
+
+.min{
+    height: 80px;
+    margin: 20px 22px 10px 15px;
+    
+    border-bottom: 1px dashed #ccc;
+}
+
+.sidebarhead{
+    height: 80px;
+    margin: 20px 22px 10px 15px;
+    border-bottom: 1px dashed #ccc;
+}
+.sidebarhead h2{
+    margin: 20px 22px 10px 15px;
+    border-left: 5px solid #ff9a6a;
+    padding-left: 10px;
+}
+.sidebarnav i{
+    position: absolute;
+    display: block;
+    top: 2px;
+    width: 13px;
+    height: 16px;
+    background: url(../img/zhuye/page_comic_all.png)0px -89px;
+}
+.sidebarnav2 i{
+    position: absolute;
+    display: block;
+    top: 2px;
+    width: 13px;
+    height: 18px;
+    background: url(../img/zhuye/page_comic_all.png)0px -67px;
+}
+.sidebarnav3 i{
+    position: absolute;
+    display: block;
+    top: 3px;
+    width: 16px;
+    height: 16px;
+    background: url(../img/zhuye/page_comic_all.png)0px -24px;
+}
+
+.sidebarnav3 span{
+    margin-left: 20px;
+}
+.sidebarhead span{
+    margin: 20px 22px 10px 15px;
+    
+}
+
+.sidebarnav3 p{
+    position: relative;
+    margin: 20px 22px 10px 15px;
+    font-size: 18px;
+}
+.min p{
+    position: relative;
+    margin: 20px 22px 10px 15px;
+    font-size: 18px;
+}
+.min span{
+    margin-left: 20px;
+}
+    
+.min li{
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #c7c7c7;
+}
+.min ul{
+    margin: 20px 22px 10px 15px;
+}
+.sidebarnav li{
+    float: left;
+    margin-right: 10px;
+   
+}
+.min .status{
+    background-color: #fa9144;
+    color: #fff;
+}
+.min li:hover{
+    background-color: #fa9144;
+   color: #fff;
+}
+
+.sidebarnav3{
+    height: 150px;
+    
+    margin: 20px 22px 10px 15px;
+}
+.sidebarnav3 p{
+    margin: 20px 22px 10px 15px;
+    font-size: 18px;
+}
+.sidebarnav3 ul{
+    margin: 20px 22px 10px 15px;
+    overflow: hidden;
+}
+
+.sidebarnav3 li{
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #c7c7c7;
+}
+.sidebarnav3 .status{
+    background-color: #fa9144;
+    color: #fff;
+}
+.sidebarnav3 li:hover{
+    background-color: #fa9144;
+    color: #fff;
+}
+
+.ret{
+    width: 872px;
+    height: 1500px;
+    border: 1px solid #bbbbbb;
+    
+}
+
+.rethead{
+    height: 40px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.rethead>ul li{
+    float: left;
+    position: relative;
+    
+    width: 80px;
+    height: 39px;
+    text-align: center;
+    line-height: 39px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.rethead span{
+    margin-left: 8px;
+}
+.rethead li i:nth-of-type(1){
+    position: absolute;
+    display: block;
+    top: 15px;
+    width: 7px;
+    height: 8px;
+    background: url(../img/zhuye/page_comic_all.png)0px -167px;
+}
+.rethead li:nth-of-type(2) i{
+    position: absolute;
+    display: block;
+    top: 15px;
+    width: 7px;
+    height: 8px;
+    background: url(../img/zhuye/page_comic_all.png)0px -411px;
+}
+
+.rethead-msg p{
+    color: rgb(63, 63, 63);
+    text-align: center;
+    line-height: 39px;
+}
+.rethead-msg span{
+    color: #000;
+}
+
+.rethead-right ul{
+    text-align: center;
+    
+}
+
+.rethead-right li{
+    float: left;
+    display: inline-block;
+    height: 21px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.rethead-right li:hover{
+    background-color: #fa9144;
+    color: #fff;
+}
+
+.rethead-right .status{
+    background-color: #fa9144;
+    color: #fff;
+}
+
+.retmain{
+    height: 1420px;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.retmain ul{
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.retmain ul li .img{
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+.retmain ul li {
+   width: 400px;
+   height: 229px;
+   float: left;
+   border: 1px solid #717171;
+}
+
+
+.retmain img{
+    width: 133px;
+    height: 177px;
+    display: block;
+}
+.retmain li .img>span{
+    background: #353334;
+    text-align: center;
+    opacity: 0.8;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+}
+
+.hezuo{
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    width: 30px;
+    height: 20px;
+    background: url(../img/zhuye/jingling.png)-135px -272px;
+}
+.dujia{
+    position: absolute;
+    left: 140px;
+    top: 0px;
+    width: 30px;
+    height: 20px;
+    background: url(../img/zhuye/jingling.png)-65px -407px;
+}
+.retmain .title{
+    overflow: hidden;
+    position: relative;
+}
+.retmain .zuozhe{
+    font-size: 15px;
+    color: #555454;
+    margin-top: 10px;
+}
+.retmain .biaoqian{
+    font-size: 15px;
+    color: #555454;
+    margin-top: 10px;
+}
+.retmain .huise{
+    font-size: 15px;
+    color: #717171;
+    margin-top: 10px;
+}
+
+.retmain a{
+    display: inline-block;
+    width: 90px;
+    height: 36px;
+    background-color: #e0cfb1;
+    color: #b6724d;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.retfoot ul{
+    float:right;
+}
+.retfoot li{
+    float: left;
+    display: inline-block;
+    height: 21px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.retfoot li:hover{
+    background-color: #fa9144;
+    color: #fff;
+}
+
+.retfoot .status{
+    background-color: #fa9144;
+    color: #fff;
+}
+
+
+.foot{
+    height: 303px;
+ }
+ .jianjiao{
+    height: 7px;
+    background: url(../img/zhuye/jingling.png)0px -705px repeat-x;
+ }
+ .footmain{
+    height: 296px;
+    background: url(https://ac.gtimg.com/media/images/ac_footer_bg.jpg);
+    
+
+ }
+ .footmain ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+ }
+ .footmain ul img{
+   width: 77px;
+   height: 77px;
+ }
+ .footmain ul p{
+    font-size: 11px;
+    color: #ffffff;
+  }
+  .footmain li{
+    margin-right: 50px;
+  }
+  .Copyright{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .Copyright a{
+    color: #ffffff;
+    font-size: 11px;
+    margin-right: 10px;
+  }
+  .footmain span{
+    color: #ffffff;
+    font-size: 11px;
+  }
+.Copyright2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.Copyright3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.Copyright4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.Copyright5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+}
+.Copyright5 img{
+    width: 32px;
+    height: 44px;
+}
+.Copyright5 a{
+    font-size: 11px;
+    color: #686767;
+}
+
+.block{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #717171;
+    opacity: 0.8;
+    z-index: 1000;
+    display: none;
+}
+
+.loginba{
+    display: none;
+    position: fixed;
+    top: 100px;
+    left: 340px;
+    z-index: 1001;
+    width: 688px;
+    height: 427px;
+    background-color: #ffffff;
+}
+.close{
+    position: absolute;
+    left: 648px;
+    top: 0px;
+    width: 40px;
+    height: 40px;
+    background: url(../img/zhuye/jingling.png)0px -716px;
+}
+.modal-tab{
+    height: 47px;
+    position: relative;
+}
+.modal-tab ul{
+    
+    display: flex;
+    justify-content:space-around;
+}
+.modal-tab li{
+    width: 344px;
+    text-align: center;
+    line-height: 47px;
+    background-color: #a2a2a2;
+    color: #717171;
+    cursor: pointer;
+}
+.modal-tab .regsiter{
+    background-color: #31a4f6;
+    color: #fff;
+}
+
+.tips{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.web-login{
+    width: 407px;
+    height: 311px;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+}
+.web-login p{
+    font-size: 11px;
+    margin-top: 10px;
+}
+.web-login>p>span{
+    color: #31a4f6;
+    cursor: pointer;
+}
+.web-login input{
+    border: 1px solid #717171;
+    width: 250px;
+    height: 38px;
+    border-radius: 5px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.web-login .btn{
+    color: #fff;
+    background-color:#31a4f6 ;
+}
+
+.web-login div{
+    overflow: hidden;
+}
+.web-login ul{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.web-login li{
+    float: left;
+    margin-right: 50px;
+    font-size: 11px;
+    cursor: pointer;
+    
+}
+
+.web-login li a{
+    color: #000000;
+    
+}
+.page{
+    width: 228px;
+    height: 298px;
+    float: left;
+    margin-top: 50px;
+}
+.page a{
+    color: #2e77e5;
+}
+.page p{
+    font-size: 11px;
+    margin-top: 20px;
+}
+.page>div{
+    margin-top: 10px;
+    height: 13px;
+    font-size: 13px;
+    color: #717171;
+}
+.page>div input{
+    width: 13px;
+    height: 13px;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+.loginba .vx{
+    display: none;
+}
+.loginba .vx p{
+    text-align: center;
+}
+.loginba img{
+    width: 182px;
+    height: 182px;
+    margin-bottom: 10px;
+}
+
+.loginba p{
+    font-size: 13px;
+}
+
+.qlogin{
+    display: none;
+    float: left;
+    width: 407px;
+    height: 311px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.qlogin ul{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.qlogin li{
+    float: left;
+    margin-right: 50px;
+    font-size: 11px;
+    cursor: pointer;
+    
+}
+
+.qlogin li a{
+    color: #000000;
+    
+}
+
